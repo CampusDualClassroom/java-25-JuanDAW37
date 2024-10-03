@@ -1,6 +1,5 @@
 package com.campusdual.classroom;
 
-import java.util.Iterator;
 import java.util.Stack;
 
 public class Exercise25 {
@@ -8,7 +7,6 @@ public class Exercise25 {
     public static Stack<String> pila = new Stack<>();
 
     public static Stack<String> createStack() {
-        Stack<String> auxPila = new Stack<>();
 
         pila.push("Smith");
         pila.push("Montessori");
